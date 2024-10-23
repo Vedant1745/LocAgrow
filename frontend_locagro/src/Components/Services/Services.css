@@ -1,0 +1,39 @@
+.services {
+    margin: 80px auto;
+    width: 80%;
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr ; 
+  grid-template-rows: auto auto;  
+  gap: 10px;  
+  row-gap: 25px;
+    align-items: center;
+    justify-content: center;
+    /* margin:0 auto; */
+    padding-left: 30px;
+  }
+  
+  .service {
+    flex-basis: 30%; /* Make full width within the grid cell */
+    max-width: 300px; /* Increased max-width for each service card */
+    margin: 0; /* Remove margin since we are using grid gap */
+    border: 1px solid #ccc; /* Optional border for better visibility */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* To prevent overflow */
+    text-align: center; /* Center align text */
+    transition: transform 0.2s; /* Animation for hover */
+  }
+  
+  .service img {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .service:hover {
+    transform: scale(1.05); /* Slight scale on hover */
+  }
+  
+  .caption {
+    padding: 10px;
+    background-color: #f9f9f9; 
+  }
+  

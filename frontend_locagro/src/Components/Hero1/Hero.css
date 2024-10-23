@@ -1,0 +1,53 @@
+
+/* Hero Section */
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row; /* Change to row to align items side by side */
+    align-items: center;
+    justify-content: space-between; /* Space between elements */
+    background-position: center;
+    color: #062816;
+    padding: 0 10%; /* Add some padding for spacing on the sides */
+}
+
+.hero-text {
+    max-width: 50%;
+    max-height: 100vh; /* Set width to 50% to align to the left */
+    text-align: left;
+
+}
+
+.hero-text h1 {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.hero-text p {
+    max-width: 80%; /* Adjust max-width for readability */
+    font-size: 25px;
+    margin: 10px 0 20px;
+    line-height: 1.4;
+}
+
+.btn { /* Assuming this is your button class */
+    padding: 12px 25px;
+    background-color: #062816;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* Box Styling */
+.box img{
+    width: 700px;
+    height: 500px; /* Define height for the box */
+    border: 3px;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 40px;
+    box-shadow: grey;
+}
+

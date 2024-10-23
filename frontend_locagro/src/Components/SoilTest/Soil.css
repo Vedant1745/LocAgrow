@@ -1,0 +1,96 @@
+/* Container for the Soil component */
+.soil-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 90px;
+  }
+  
+  /* Title styling for the Soil component */
+  .soil-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Grid layout for the Soil component cards */
+  .soil-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  /* Card styling specific to the Soil component */
+  .soil-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 48%;
+    min-width: 300px;
+    line-height: 1.6;
+  }
+  
+  /* Card title styling */
+  .soil-card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Card description text */
+  .soil-card-description {
+    margin-bottom: 15px;
+  }
+  
+  /* Form group styling for Soil component */
+  .soil-form-group {
+    margin-bottom: 10px;
+  }
+  
+  /* Label styling for inputs in Soil component */
+  .soil-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Input and select styling, scoped to Soil component */
+  .soil-input,
+  .soil-select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Submit button styling specific to Soil component */
+  .soil-submit-button {
+    padding: 10px 15px;
+    background-color: rgba(2, 32, 8,0.7);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .soil-submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Table styling specific to Soil test results */
+  .soil-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .soil-th,
+  .soil-td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  

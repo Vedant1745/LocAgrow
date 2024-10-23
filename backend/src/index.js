@@ -44,13 +44,13 @@ app.post("/upload", upload.single('product'), (req, res) => {
     }
     res.json({
         success: 1,
-        // `${process.env.REACT_APP_BACKEND_URL}/chat`
-        // image_url: `http://localhost:${port}/images/${req.file.filename}`
-        image_url: `${process.env.REACT_APP_BACKEND_URL}/images/${req.file.filename}`
+        
+        image_url: `http://localhost:${port}/images/${req.file.filename}`
+       
     });
 });
 
-
+ // image_url: `${process.env.REACT_APP_BACKEND_URL}/images/${req.file.filename}`
 
 
 

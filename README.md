@@ -121,12 +121,13 @@ We welcome contributions from the community! If you would like to contribute to 
 
 **LocAgrow** is committed to building a better future for farmers and creating a more connected, sustainable agricultural ecosystem. Join us on our mission to empower farmers and transform agriculture for the better.
 
+---
 
 **Here are the future implementations for LocAgrow :**
 
-1.Connecting farmers to middlemen for wider market access.
-2.Developing a mobile app for on-the-go access to all features.
-3.AI-based crop recommendation system for smarter farming decisions.
-4.Market price insights & analytics to guide pricing and sales.
+-1.Connecting farmers to middlemen for wider market access.
+-2.Developing a mobile app for on-the-go access to all features.
+-3.AI-based crop recommendation system for smarter farming decisions.
+-4.Market price insights & analytics to guide pricing and sales.
 
 
